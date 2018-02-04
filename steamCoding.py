@@ -1,12 +1,12 @@
 import turtle
 
-window = turtle.Screen() #click the screen to close it
-tur = turtle.Turtle()
+#window = turtle.Screen() #click the screen to close it
+#tur = turtle.Turtle()
 #tur.ht()
-tur.penup()
-tur.goto(-330, 0)
+#tur.penup()
+#tur.goto(-330, 0)
 #tur.goto(-650, 0)
-tur.pendown()
+#tur.pendown()
 
 def drawA():
     tur.lt(65)
@@ -26,8 +26,6 @@ def drawA():
     tur.fd(10)
     tur.pendown()
 
-#drawA()
-
 def drawB():
     tur.lt(90)
     tur.fd(100)
@@ -45,10 +43,6 @@ def drawB():
     tur.up()
     tur.fd(40)
     tur.down()
-    #tur.ht()
-
-#drawA()
-#drawB()
 
 def drawC():
     tur.up()
@@ -58,10 +52,6 @@ def drawC():
     tur.down()
     tur.lt(90)
     tur.circle(50, 180)
-
-#drawA()
-#drawB()
-#drawC()
 
 def drawD():
     tur.up()
@@ -79,11 +69,6 @@ def drawD():
     tur.up()
     tur.fd(60)
     tur.down()
-
-#drawA()
-#drawB()
-#drawC()
-#drawD()
 
 def drawE():
     tur.lt(90)
@@ -104,12 +89,6 @@ def drawE():
     tur.fd(10)
     tur.down()
 
-#drawA()
-#drawB()
-#drawC()
-#drawD()
-#drawE()
-
 def drawF():
     tur.lt(90)
     tur.fd(100)
@@ -128,13 +107,6 @@ def drawF():
     tur.fd(55)
     tur.down()
 
-#drawA()
-#drawB()
-#drawC()
-#drawD()
-#drawE()
-#drawF()
-
 def drawG():
     tur.up()
     tur.fd(45)
@@ -149,14 +121,6 @@ def drawG():
     tur.lt(90)
     tur.fd(60)
     tur.down()
-
-#drawA()
-#drawB()
-#drawC()
-#drawD()
-#drawE()
-#drawF()
-#drawG()
 
 def drawH():
     tur.lt(90)
@@ -178,15 +142,6 @@ def drawH():
     tur.fd(10)
     tur.down()
     
-#drawA()
-#drawB()
-#drawC()
-#drawD()
-#drawE()
-#drawF()
-#drawG()
-#drawH()
-
 def drawI():
     tur.fd(30)
     tur.lt(180)
@@ -204,17 +159,7 @@ def drawI():
     tur.fd(10)
     tur.down()
 
-#drawA()
-#drawB()
-#drawC()
-#drawD()
-#drawE()
-#drawF()
-#drawG()
-#drawH()
-#drawI()
-
-def drawJ():
+def drawJ(tur):
     tur.up()
     tur.lt(90)
     tur.fd(15)
@@ -234,18 +179,6 @@ def drawJ():
     tur.fd(10)
     tur.down()
     
-
-#drawA()
-#drawB()
-#drawC()
-#drawD()
-#drawE()
-#drawF()
-#drawG() 
-#drawH()
-#drawI()
-#drawJ()
-
 def drawK():
     tur.lt(90)
     tur.fd(100)
@@ -265,20 +198,6 @@ def drawK():
     tur.fd(15)
     tur.down()
 
-
-#drawA()
-########
-#drawB()
-#drawC()
-#drawD()
-#drawE()
-#drawF()
-#drawG() 
-#drawH()
-#drawI()
-#drawJ()
-#drawK()
-
 def drawL():
     tur.lt(90)
     tur.fd(100)
@@ -291,8 +210,6 @@ def drawL():
     tur.up()
     tur.fd(10)
     tur.down()
-
-#drawL()
 
 def drawM():
     tur.lt(90)
@@ -308,10 +225,6 @@ def drawM():
     tur.fd(10)
     tur.down()
 
-#drawM()
-#drawI()
-#drawA()
-
 def drawN():
     tur.lt(90)
     tur.fd(100)
@@ -325,12 +238,7 @@ def drawN():
     tur.lt(90)
     tur.fd(10)
     tur.down()
-
-#drawA()
-#drawL()
-#drawI()
-#drawN()
-
+    
 def drawO():
     tur.up()
     tur.lt(90)
@@ -346,16 +254,6 @@ def drawO():
     tur.fd(50)
     tur.down()
 
-tur.write('Happy birthday', font=("courier new", 18, "normal"))
-tur.up()
-tur.goto(-330, -125)
-tur.down()
-drawJ()
-drawA()
-drawK()
-drawE()
-tur.write('the best dad ever!!!!!!!!!', font=("courier new", 18, "normal"))
-tur.ht()
 
 
 
